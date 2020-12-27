@@ -19,7 +19,7 @@ player = False
 
 while player == False:
     #set player to true
-    player = input("Rock, Paper, Scissors?")
+    player = input("Rock, Paper, Scissors?").capitalize().replace(" ", "")
     if player == computer:
         print("Tie! We both win!")
     elif player == "Rock":
