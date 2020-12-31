@@ -41,7 +41,7 @@ print('Okay! '  + player_name + ' I am guessing a number between 1 and 10: ')
 #         break
 #
 # Finish the IF statement
-# if guess == number :
+# if guess :
 #     print('Good guess! It took you ' + str(number_of_guesses) + ' tries to get it!')
 # else:
 #     print('Unlucky, the number was ' + str(number))
